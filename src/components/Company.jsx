@@ -1,30 +1,39 @@
 import React from 'react'
 
+import Amazon from "../assets/amazon.png"
+import Shopee from "../assets/shopee.png"
+import Shopify from "../assets/shopify.png"
+import AliBaba from "../assets/alibaba.png"
+import Walmart from "../assets/walmart.png"
+import Lazada from "../assets/lazada.png"
+import Bukalapak from "../assets/bukalapak.png"
+import Orami from "../assets/orami.png"
+
 export default function Company() {
     let Data = [
         {
-            img:'../src/assets/amazon.png'
+            img: Amazon,
         },
         {
-            img:'../src/assets/shopee.png'
+            img: Shopee,
         },
         {
-            img:'../src/assets/shopify.png'
+            img: Shopify,
         },
         {
-            img:'../src/assets/alibaba.png'
+            img: AliBaba,
         },
         {
-            img:'../src/assets/walmart.png'
+            img: Walmart,
         },
         {
-            img:'../src/assets/lazada.png'
+            img: Lazada
         },
         {
-            img:'../src/assets/bukalapak.png'
+            img: Bukalapak
         },
         {
-            img:'../src/assets/orami.png'
+            img: Orami
         }
     ]
   return (
